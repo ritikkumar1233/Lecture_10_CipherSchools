@@ -3,8 +3,8 @@
 
 //way1
 let person = {
-    firstName : "Shivam",
-    lastName : "Yadav",
+    firstName : "Ritik",
+    lastName : "Kumar",
 
     getFullName: function()
     {
@@ -30,7 +30,7 @@ function per(fName,lName)
 
 
 let person1 = new per("Abhay","Bharti");
-let person2 = new per("Ritik","Kumar");
+let person2 = new per("Shivam","Kumar");
 
 console.log(person1.fName);
 
@@ -47,7 +47,7 @@ const coder = {
 
 const me = Object.create(coder);
 
-me.name = "Shivam Yadav";
+me.name = "Ritik Kumar";
 me.isStudying = true;
 
 me.printIntroduction();
@@ -94,7 +94,7 @@ class Person{
     }
 }
 
-let p1 = new Person("Shivam",101);
+let p1 = new Person("Ritik",101);
 p1.addAddress("Patna");
 p1.getDetails();
 
